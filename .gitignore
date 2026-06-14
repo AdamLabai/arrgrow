@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Allow only the site files
+!.gitignore
+!index.html
+!script.js
+!style.css
+!bizo.html
+!opsync.html
+!assets/
+!assets/**

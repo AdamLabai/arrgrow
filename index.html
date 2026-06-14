@@ -1,248 +1,173 @@
 <!DOCTYPE html>
-<html lang="en" class="arr">
+<html lang="he" dir="rtl" class="arr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arrgrow — AI & Automation Systems for Scale</title>
-  <meta name="description" content="Arrgrow builds custom AI-driven automation workflows, n8n integrations, and paid advertising auditing systems that replace manual labor and scale operations.">
-  
-  <!-- Favicon -->
+  <title>Arrgrow — מערכות AI לעסקים ישראלים</title>
+  <meta name="description" content="Arrgrow בונה מוצרי תוכנה שמחליפים עבודה ידנית ומאפשרים לעסקים ישראלים לצמוח בלי להוסיף כוח אדם.">
+  <meta property="og:title" content="Arrgrow — מערכות AI לעסקים ישראלים">
+  <meta property="og:description" content="שני מוצרים. בעיה אחת: עבודה ידנית שאפשר להחליף במערכת.">
+  <meta property="og:type" content="website">
   <link rel="icon" type="image/png" href="assets/white_on_black_favicon.png">
-  
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a href="#main" class="skip-nav">דלגו לתוכן</a>
 
-  <!-- Ambient Glow Background Elements -->
   <div class="ambient-glow glow-1" aria-hidden="true"></div>
   <div class="ambient-glow glow-2" aria-hidden="true"></div>
 
-  <!-- Navigation Bar -->
   <header class="navbar" id="navbar">
     <div class="nav-container">
-      <a href="#" class="nav-logo" id="nav-logo-link">
-        <img src="assets/logo_horizontal_white_on_transparentwith_brand_name_.png" alt="Arrgrow Logo" class="logo-img">
+      <a href="index.html" class="nav-logo" aria-label="Arrgrow דף הבית">
+        <img src="assets/logo_horizontal_white_on_transparentwith_brand_name_.png" alt="Arrgrow" class="logo-img">
       </a>
-      
-      <!-- Desktop Navigation -->
-      <nav class="nav-links" id="nav-links">
-        <a href="#offerings" class="nav-link">Offerings</a>
-        <a href="#stats" class="nav-link">Impact</a>
-        <a href="#process" class="nav-link">Process</a>
-        <a href="#contact" class="nav-link">Contact</a>
+      <nav class="nav-links" id="nav-links" aria-label="ניווט ראשי">
+        <a href="bizo.html" class="nav-link">Biz'o</a>
+        <a href="opsync.html" class="nav-link">Opsync</a>
+        <a href="#contact" class="nav-link">צרו קשר</a>
       </nav>
-
       <div class="nav-cta-container">
-        <a href="#contact" class="btn btn-primary btn-sm" id="nav-cta-btn">Unlock Velocity</a>
+        <a href="#contact" class="btn btn-primary btn-sm">בקשו שיחה</a>
       </div>
-
-      <!-- Mobile Menu Button -->
-      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="פתח תפריט" aria-expanded="false">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
       </button>
     </div>
   </header>
 
-  <main>
-    <!-- Hero Section -->
+  <main id="main">
+
+    <!-- Hero -->
     <section class="hero-section" id="hero">
-      <div class="container hero-container">
-        <div class="hero-content">
-          <span class="arr-eyebrow hero-eyebrow">The Creator Archetype for B2B Operations</span>
-          <h1 class="arr-display hero-title">
-            Build systems that <br>
-            <span class="arr-text-gradient">replace manual labor</span>.
-          </h1>
-          <p class="arr-body-lg hero-subtitle">
-            Transition your business from chaotic delivery to automated operations. We build custom n8n workflows, paid ads audit engines, and folder-as-workspace OS architectures that empower you to scale without adding headcount.
-          </p>
-          <div class="hero-actions">
-            <a href="#contact" class="btn btn-primary" id="hero-primary-cta">Unlock Creative Velocity</a>
-            <a href="#offerings" class="btn btn-ghost" id="hero-secondary-cta">See Arrgrow in Action</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Stats / Impact Section -->
-    <section class="stats-section" id="stats">
       <div class="container">
-        <div class="stats-grid">
-          <div class="stat-card">
-            <div class="arr-stat stat-number" id="stat-workflows">24/7</div>
-            <p class="arr-body stat-label">Automated Workflows Running</p>
-          </div>
-          <div class="stat-card">
-            <div class="arr-stat stat-number" id="stat-overhead">0</div>
-            <p class="arr-body stat-label">Manual Overhead Headcount</p>
-          </div>
-          <div class="stat-card">
-            <div class="arr-stat stat-number" id="stat-efficiency">100%</div>
-            <p class="arr-body stat-label">Operational Transparency</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Core Offerings / Solutions Section -->
-    <section class="offerings-section" id="offerings">
-      <div class="container">
-        <div class="section-header">
-          <span class="arr-eyebrow">What We Do</span>
-          <h2 class="arr-h2 section-title">Reusable Systems for Scaled Growth</h2>
-          <p class="arr-body-lg section-subtitle">We don't sell hours. We design and install asset-class systems that live in your business forever.</p>
-        </div>
-
-        <div class="offerings-grid">
-          <!-- Card 1: Workflow Automation -->
-          <div class="offering-card" id="offering-automation">
-            <div class="card-glow"></div>
-            <div class="card-content">
-              <div class="card-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13 10V3L4 14H11V21L20 10H13Z" stroke="#FF6B35" stroke-width="2" stroke-linejoin="round"/>
-                </svg>
-              </div>
-              <h3 class="arr-h3 card-title">AI-Powered Workflow Automation</h3>
-              <p class="arr-body card-description">
-                Connect your tech stack using robust n8n engines. Automate lead routing, database synchronization, reporting, and AI-driven content assembly without subscription bloat.
-              </p>
-              <ul class="card-features">
-                <li class="arr-caption"><span class="bullet"></span>Custom n8n Workflow Deployments</li>
-                <li class="arr-caption"><span class="bullet"></span>AI Agent Integrations (LLMs)</li>
-                <li class="arr-caption"><span class="bullet"></span>API Bridging & Data Pipes</li>
-              </ul>
+        <div class="hero-split">
+          <div class="hero-content">
+            <span class="arr-eyebrow hero-eyebrow">מוצרי AI לעסקים ישראלים</span>
+            <h1 class="arr-display hero-title">
+              מערכות שמחליפות<br>
+              <span class="arr-text-gradient">עבודה ידנית.</span>
+            </h1>
+            <p class="arr-body-lg hero-subtitle">
+              Arrgrow בונה כלים שעובדים בשבילכם — סושיאל, תפעול, מלאי — בלי כוח אדם נוסף ובלי ממשקים מסובכים.
+            </p>
+            <div class="hero-actions">
+              <a href="#products" class="btn btn-primary">גלו את המוצרים</a>
+              <a href="#contact" class="btn btn-ghost">צרו קשר</a>
             </div>
           </div>
 
-          <!-- Card 2: Paid Ads Audit Frameworks -->
-          <div class="offering-card" id="offering-ads">
-            <div class="card-glow"></div>
-            <div class="card-content">
-              <div class="card-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 20V10M18 20V4M6 20V14" stroke="#FF6B35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-products-stack">
+              <div class="hpc hpc--bizo">
+                <div class="hpc-badge">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+                  וואטסאפ
+                </div>
+                <div class="hpc-name">Biz'o</div>
+                <div class="hpc-desc">סרטון בוואטסאפ → 5–7 נכסים דיגיטליים → פרסום ל-4 רשתות.</div>
+                <div class="hpc-price">מ-500 ₪</div>
+                <div class="hpc-note">לחודש · ניסיון חינם</div>
               </div>
-              <h3 class="arr-h3 card-title">Paid Ads Auditing Systems</h3>
-              <p class="arr-body card-description">
-                Audit and optimize Google, Meta, and multi-channel campaigns. Leverage our proprietary 250+ check audit skill to diagnose performance leaks and project ROI.
-              </p>
-              <ul class="card-features">
-                <li class="arr-caption"><span class="bullet"></span>250+ Point Advertising Audits</li>
-                <li class="arr-caption"><span class="bullet"></span>Server-Side Tracking & CAPI Setup</li>
-                <li class="arr-caption"><span class="bullet"></span>Creative Fatigue & Dimension Analysis</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Card 3: Business OS Architecture -->
-          <div class="offering-card" id="offering-workspace">
-            <div class="card-glow"></div>
-            <div class="card-content">
-              <div class="card-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="#FF6B35" stroke-width="2" stroke-linejoin="round"/>
-                  <path d="M9 22V12H15V22" stroke="#FF6B35" stroke-width="2" stroke-linejoin="round"/>
-                </svg>
+              <div class="hpc hpc--opsync">
+                <div class="hpc-badge">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2"/><path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                  כניסה מוקדמת
+                </div>
+                <div class="hpc-name">Opsync</div>
+                <div class="hpc-desc">POS, ERP, CRM — הכל בצ'אט אחד בשפה פשוטה.</div>
+                <div class="hpc-price">Early Access</div>
+                <div class="hpc-note">מקבלים עסקים נבחרים</div>
               </div>
-              <h3 class="arr-h3 card-title">Folder-as-Workspace OS</h3>
-              <p class="arr-body card-description">
-                Organize your operations using clean, folder-based structures. Ditch chaotic dashboard tools for markdown-native file architectures that keep your AI agents aligned.
-              </p>
-              <ul class="card-features">
-                <li class="arr-caption"><span class="bullet"></span>Markdown operating files</li>
-                <li class="arr-caption"><span class="bullet"></span>Standardized department maps</li>
-                <li class="arr-caption"><span class="bullet"></span>AI-friendly file architectures</li>
-              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Process Section -->
-    <section class="process-section" id="process">
+    <!-- מוצרים -->
+    <section class="offerings-section" id="products">
       <div class="container">
         <div class="section-header">
-          <span class="arr-eyebrow">How We Work</span>
-          <h2 class="arr-h2 section-title">Three Steps to Systemization</h2>
-          <p class="arr-body-lg section-subtitle">From manual chaos to a streamlined, asset-backed operating model.</p>
+          <span class="arr-eyebrow">המוצרים</span>
+          <h2 class="arr-h2 section-title">שני מוצרים. בעיה אחת.</h2>
+          <p class="arr-body-lg section-subtitle">כל מוצר פותר בעיה ספציפית — ושניהם בנויים על אותו עיקרון: מחליפים עבודה ידנית במערכת שעובדת עבורכם.</p>
         </div>
 
-        <div class="process-steps">
-          <div class="process-step">
-            <div class="step-number">01</div>
-            <div class="step-content">
-              <h3 class="arr-h3 step-title">Map the Bottlenecks</h3>
-              <p class="arr-body step-desc">We audit your existing manual operations, identifying high-frequency tasks and communication gaps where systemization will yield the highest ROI.</p>
+        <div class="offerings-grid offerings-grid--two">
+          <div class="offering-card" id="offering-bizo">
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="#FF6B35" stroke-width="2" stroke-linejoin="round"/></svg>
+              </div>
+              <h3 class="arr-h4 card-title">Biz'o</h3>
+              <p class="card-description">ניהול תוכן ברשתות חברתיות ישירות מהוואטסאפ. שולחים סרטון או תמונה, מקבלים חבילת תוכן מלאה ופרסום לכל הרשתות בלחיצה אחת.</p>
+              <ul class="card-features">
+                <li><span class="bullet" aria-hidden="true"></span>5–7 נכסים דיגיטליים מכל סרטון</li>
+                <li><span class="bullet" aria-hidden="true"></span>פרסום ל-4 רשתות בלחיצה אחת</li>
+                <li><span class="bullet" aria-hidden="true"></span>ממשק וואטסאפ — אפס עקומת לימוד</li>
+                <li><span class="bullet" aria-hidden="true"></span>מ-500 ₪/חודש · ניסיון חינם</li>
+              </ul>
+              <a href="bizo.html" class="card-cta">גלו את Biz'o ←</a>
             </div>
           </div>
-          <div class="process-step">
-            <div class="step-number">02</div>
-            <div class="step-content">
-              <h3 class="arr-h3 step-title">Engineer the Workflows</h3>
-              <p class="arr-body step-desc">We build custom n8n pipelines, paid media checkers, and file workspaces, testing every edge case until the systems run autonomously.</p>
-            </div>
-          </div>
-          <div class="process-step">
-            <div class="step-number">03</div>
-            <div class="step-content">
-              <h3 class="arr-h3 step-title">Deploy and License</h3>
-              <p class="arr-body step-desc">We hand over the full system assets to your business, with complete ownership, documentation, and licensing—no locking you into retainer fees.</p>
+
+          <div class="offering-card" id="offering-opsync">
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="2" y="3" width="20" height="14" rx="2" stroke="#FF6B35" stroke-width="2"/><path d="M8 21h8M12 17v4" stroke="#FF6B35" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="arr-h4 card-title">Opsync</h3>
+              <p class="card-description">פלטפורמת AI שמחברת קופה, מלאי, CRM ועוד — ומאפשרת לנהל את כל העסק בשאלה אחת בשפה פשוטה. כרגע מקבלים עסקים נבחרים לכניסה מוקדמת.</p>
+              <ul class="card-features">
+                <li><span class="bullet" aria-hidden="true"></span>חיבור ל-POS, ERP ו-CRM</li>
+                <li><span class="bullet" aria-hidden="true"></span>שאלות בשפה טבעית, תשובות מהנתונים שלכם</li>
+                <li><span class="bullet" aria-hidden="true"></span>אוטומציה של תוכן מנתוני מלאי</li>
+                <li><span class="bullet" aria-hidden="true"></span>כניסה מוקדמת — עסקים נבחרים</li>
+              </ul>
+              <a href="opsync.html" class="card-cta">גלו את Opsync ←</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Lead Form Section -->
+    <!-- צרו קשר -->
     <section class="contact-section" id="contact">
       <div class="container">
         <div class="contact-grid">
           <div class="contact-info">
-            <span class="arr-eyebrow">Get Started</span>
-            <h2 class="arr-h2 contact-title">Ignite Operational Velocity</h2>
-            <p class="arr-body-lg contact-desc">
-              Ready to replace manual labor with scalable systems? Tell us about your bottlenecks, and we'll draft a systemization plan.
-            </p>
-            
+            <span class="arr-eyebrow">דברו איתנו</span>
+            <h2 class="arr-h2 contact-title">מוכנים להתחיל?</h2>
+            <p class="arr-body-lg contact-desc">ספרו לנו על העסק שלכם ואיזה תהליכים אתם רוצים לאוטומט. נחזור תוך 24 שעות.</p>
             <div class="contact-details">
               <div class="contact-detail-item">
-                <span class="detail-label arr-caption">Direct Email</span>
+                <span class="detail-label arr-caption">מייל ישיר</span>
                 <span class="detail-value arr-body-lg"><a href="mailto:adaml@arrgrow.com">adaml@arrgrow.com</a></span>
               </div>
             </div>
           </div>
-
           <div class="contact-form-container">
-            <form class="contact-form" id="contact-form">
+            <form class="contact-form" id="contact-form" novalidate>
               <div class="form-group">
-                <label for="name" class="form-label arr-caption">Your Name</label>
-                <input type="text" id="name" name="name" class="form-input" placeholder="Adam Labai" required>
+                <label for="name" class="form-label">שם מלא</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="ישראל ישראלי" required autocomplete="name">
               </div>
-
               <div class="form-group">
-                <label for="email" class="form-label arr-caption">Work Email</label>
-                <input type="email" id="email" name="email" class="form-input" placeholder="you@company.com" required>
+                <label for="email" class="form-label">מייל</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="you@company.com" required autocomplete="email">
               </div>
-
               <div class="form-group">
-                <label for="company" class="form-label arr-caption">Company Name</label>
-                <input type="text" id="company" name="company" class="form-input" placeholder="Acme Corp">
+                <label for="company" class="form-label">שם העסק</label>
+                <input type="text" id="company" name="company" class="form-input" placeholder="שם החברה שלכם" autocomplete="organization">
               </div>
-
               <div class="form-group">
-                <label for="bottleneck" class="form-label arr-caption">Primary Operational Bottleneck</label>
-                <textarea id="bottleneck" name="bottleneck" class="form-input form-textarea" placeholder="We spend 10 hours a week manually copying lead data..." required></textarea>
+                <label for="bottleneck" class="form-label">מה הכי מסרבל אצלכם עכשיו?</label>
+                <textarea id="bottleneck" name="bottleneck" class="form-input form-textarea" placeholder="למשל: אנחנו מבזבזים שעות כל שבוע על..." required></textarea>
               </div>
-
-              <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">Send Inquiry</button>
-              
+              <button type="submit" class="btn btn-primary btn-block">שלחו פנייה</button>
               <div class="form-status" id="form-status" aria-live="polite"></div>
             </form>
           </div>
@@ -251,27 +176,26 @@
     </section>
   </main>
 
-  <!-- Footer Section -->
   <footer class="footer">
     <div class="container footer-container">
       <div class="footer-brand">
-        <img src="assets/white_logo_transparent_bg_no_brand_name_.png" alt="Arrgrow Brandmark" class="footer-logo">
-        <p class="arr-caption footer-tagline">Empowering businesses with scalable, asset-backed automation systems.</p>
+        <img src="assets/white_logo_transparent_bg_no_brand_name_.png" alt="Arrgrow" class="footer-logo">
+        <p class="arr-caption footer-tagline">מערכות שמחליפות עבודה ידנית.</p>
       </div>
       <div class="footer-links-group">
-        <a href="#offerings" class="footer-link arr-caption">Offerings</a>
-        <a href="#stats" class="footer-link arr-caption">Impact</a>
-        <a href="#process" class="footer-link arr-caption">Process</a>
-        <a href="#contact" class="footer-link arr-caption">Contact</a>
+        <a href="bizo.html" class="footer-link">Biz'o</a>
+        <a href="opsync.html" class="footer-link">Opsync</a>
+        <a href="#contact" class="footer-link">צרו קשר</a>
       </div>
       <div class="footer-meta">
-        <p class="arr-caption copyright">&copy; 2026 Arrgrow. All rights reserved.</p>
-        <p class="arr-caption credit">Designed for high-velocity operations.</p>
+        <p>&copy; 2026 Arrgrow. כל הזכויות שמורות.</p>
+        <div class="footer-legal">
+          <a href="mailto:adaml@arrgrow.com" class="footer-link">adaml@arrgrow.com</a>
+        </div>
       </div>
     </div>
   </footer>
 
-  <!-- Javascript -->
   <script src="script.js"></script>
 </body>
 </html>

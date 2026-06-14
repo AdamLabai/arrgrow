@@ -58,6 +58,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // --- FAQ Accordion ---
+  document.querySelectorAll('.faq-question').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(open => {
+        open.classList.remove('open');
+        open.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
   // --- Contact Form Submission Handling ---
   const contactForm = document.getElementById('contact-form');
   const formStatus = document.getElementById('form-status');
@@ -70,17 +86,10 @@ document.addEventListener('DOMContentLoaded', () => {
       // Update UI to loading state
       submitBtn.disabled = true;
       const originalBtnText = submitBtn.textContent;
-      submitBtn.textContent = 'Accelerating...';
+      submitBtn.textContent = 'שולח...';
       formStatus.textContent = '';
       formStatus.className = 'form-status';
 
-      // Gather form data
-      const formData = {
-        name: document.getElementById('name').value,
-        email: document.getElementById('email').value,
-        company: document.getElementById('company').value,
-        bottleneck: document.getElementById('bottleneck').value
-      };
 
       // Simulate API submission
       setTimeout(() => {
@@ -88,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
         submitBtn.disabled = false;
         submitBtn.textContent = originalBtnText;
         
-        formStatus.textContent = 'Inquiry sent! We will review your bottleneck and contact you within 24 hours.';
+        formStatus.textContent = 'הפנייה נשלחה! נחזור אליכם תוך 24 שעות.';
         formStatus.classList.add('success');
         
         // Reset form fields
