@@ -1,0 +1,79 @@
+/* ============================================================
+   Biz'o — Colors
+   The palette fuses Biz'o's golden-amber robot mascot with the
+   familiar WhatsApp surface the product lives inside.
+   ============================================================ */
+:root {
+  /* ---- Brand: Biz'o Orange (sampled from the robot mascot) ---- */
+  --bizo-orange-50:  #FFF7EA;
+  --bizo-orange-100: #FFEACA;
+  --bizo-orange-200: #FDD692;
+  --bizo-orange-300: #FABF55;
+  --bizo-orange-400: #F5A623;
+  --bizo-orange-500: #F2960C; /* PRIMARY brand */
+  --bizo-orange-600: #D97E06;
+  --bizo-orange-700: #B5640A;
+  --bizo-orange-800: #8F4F0E;
+  --bizo-orange-900: #6B3C0F;
+
+  /* ---- Surface: WhatsApp green (the product's home turf) ---- */
+  --wa-green-deep:   #008069; /* header / primary chrome (teal) */
+  --wa-green:        #25D366; /* WhatsApp brand green */
+  --wa-green-accent: #00A884; /* links, active icons, FAB */
+  --wa-green-dark:   #017561; /* pressed chrome */
+  --wa-bubble-out:   #D9FDD3; /* outgoing message bubble */
+  --wa-bubble-out-deep:#C5F2BD;
+  --wa-chat-bg:      #EFEAE2; /* beige chat canvas */
+  --wa-tick-blue:    #53BDEB; /* read receipts */
+
+  /* ---- Warm neutrals (slight green-gray cast, WhatsApp native) ---- */
+  --ink-900: #111B21; /* primary text */
+  --ink-700: #3B4A54; /* strong secondary */
+  --ink-500: #667781; /* secondary text, timestamps */
+  --ink-400: #8696A0; /* tertiary, placeholder */
+  --ink-300: #AEBAC1; /* disabled text, muted icons */
+  --line:    #E9EDEF; /* hairline divider */
+  --line-strong: #D1D7DB;
+  --surface-2: #F0F2F5; /* panel / app chrome bg */
+  --surface-1: #FFFFFF; /* cards, incoming bubbles, inputs */
+  --white:   #FFFFFF;
+
+  /* ---- Semantic ---- */
+  --success: #1FA855;
+  --success-bg: #E7F8EE;
+  --danger:  #E5524A;
+  --danger-bg: #FDECEB;
+  --warning: #F2960C;
+  --warning-bg: #FFF3DF;
+  --info:    #00A884;
+  --info-bg: #E2F5F0;
+
+  /* ============================================================
+     Semantic aliases — reference these in components
+     ============================================================ */
+  --color-primary:        var(--bizo-orange-500);
+  --color-primary-hover:  var(--bizo-orange-600);
+  --color-primary-press:  var(--bizo-orange-700);
+  --color-primary-soft:   var(--bizo-orange-50);
+  --color-on-primary:     #ffffff;
+
+  --color-accent:         var(--wa-green-accent);
+  --color-accent-hover:   var(--wa-green-dark);
+  --color-chrome:         var(--wa-green-deep);
+
+  --text-strong:   var(--ink-900);
+  --text-body:     var(--ink-700);
+  --text-muted:    var(--ink-500);
+  --text-faint:    var(--ink-400);
+  --text-on-dark:  #ffffff;
+  --text-link:     var(--wa-green-accent);
+
+  --surface-page:  var(--surface-2);
+  --surface-card:  var(--surface-1);
+  --surface-chat:  var(--wa-chat-bg);
+  --surface-sunken:var(--surface-2);
+
+  --border-subtle: var(--line);
+  --border-default:var(--line-strong);
+  --border-focus:  var(--bizo-orange-400);
+}

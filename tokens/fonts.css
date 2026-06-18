@@ -1,0 +1,8 @@
+/* ============================================================
+   Biz'o — Webfonts
+   Rubik   → friendly, rounded display & headings (Hebrew + Latin)
+   Assistant → clean, highly legible UI & body (Hebrew + Latin)
+   Loaded from Google Fonts CDN (both ship full Hebrew glyph sets).
+   NOTE: served via CDN @import rather than self-hosted binaries.
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&family=Assistant:wght@400;500;600;700&display=swap');

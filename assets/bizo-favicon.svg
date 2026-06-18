@@ -1,0 +1,19 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0_2_14)">
+<mask id="mask0_2_14" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
+<circle cx="8" cy="8" r="8" fill="#D9D9D9"></circle>
+</mask>
+<g mask="url(#mask0_2_14)">
+<rect x="-4" y="-2" width="24" height="20" fill="url(#pattern0_2_14)"></rect>
+</g>
+</g>
+<defs>
+<pattern id="pattern0_2_14" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_2_14" transform="matrix(0.000925926 0 0 0.00111111 0 -0.25)"></use>
+</pattern>
+<clipPath id="clip0_2_14">
+<rect width="16" height="16" fill="white"></rect>
+</clipPath>
+<image id="image0_2_14" width="1080" height="1350" preserveAspectRatio="none"></image>
+</defs>
+</svg>

@@ -1,0 +1,26 @@
+/* ============================================================
+   Biz'o — Spacing  (4px base grid)
+   ============================================================ */
+:root {
+  --space-0: 0;
+  --space-1: 2px;
+  --space-2: 4px;
+  --space-3: 8px;
+  --space-4: 12px;
+  --space-5: 16px;
+  --space-6: 20px;
+  --space-7: 24px;
+  --space-8: 32px;
+  --space-9: 40px;
+  --space-10: 48px;
+  --space-11: 64px;
+  --space-12: 80px;
+
+  /* semantic */
+  --gap-inline: var(--space-3);   /* between inline siblings */
+  --gap-stack: var(--space-5);    /* between stacked blocks */
+  --pad-card: var(--space-5);     /* card interior */
+  --pad-screen: var(--space-5);   /* mobile screen gutter */
+  --bubble-pad-y: 6px;            /* chat bubble vertical */
+  --bubble-pad-x: 9px;            /* chat bubble horizontal */
+}

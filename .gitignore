@@ -7,6 +7,15 @@
 !script.js
 !style.css
 !bizo.html
-!opsync.html
+!bizo-v1.html
+
+# Biz'o design system (new landing page deps)
+!styles.css
+!_ds_bundle.js
+!PhoneDemo.jsx
+!Sections.jsx
+!tokens/
+!tokens/**
+
 !assets/
 !assets/**
