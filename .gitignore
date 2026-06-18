@@ -3,6 +3,7 @@
 
 # Allow only the site files
 !.gitignore
+!.nojekyll
 !index.html
 !script.js
 !style.css
