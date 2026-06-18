@@ -65,7 +65,7 @@
               ביז'ו הוא מנהל הסושיאל שלכם בוואטסאפ — שולחים תמונה, מקבלים פוסט מעוצב בקול של העסק, מאשרים בהקשה, ואנחנו מפרסמים. בלי אפליקציות, בלי ללמוד כלום.
             </p>
             <CTA size="lg" style={{ marginTop: 28 }} />
-            <p className="bz-microcopy">ניסיון 14 יום חינם · בלי כרטיס אשראי · ביטול בכל עת</p>
+            <p className="bz-microcopy">2 עיבודי וידאו + 10 יצירות תמונה חינם · בלי כרטיס אשראי · ביטול בכל עת</p>
           </div>
           <div className="bz-hero-visual">
             <img className="bz-robot" src="assets/bizo-robot-hero.png" alt="הבוט של ביז'ו" />
@@ -358,7 +358,7 @@
           <h2>הפוסט הבא שלכם נמצא<br />במרחק תמונה אחת.</h2>
           <p>שלחו הי לביז'ו בוואטסאפ — תוך 5 דקות תעשו אונבורדינג קצר ותשלחו את התמונה הראשונה שלכם.</p>
           <CTA size="lg">שלחו הי לביז'ו →</CTA>
-          <p className="bz-action-micro">14 יום ניסיון חינם · ביטול בכל עת · ללא כרטיס אשראי</p>
+          <p className="bz-action-micro">2 עיבודי וידאו + 10 יצירות תמונה חינם · ביטול בכל עת · ללא כרטיס אשראי</p>
           <p className="bz-action-micro" style={{ opacity: .55, fontSize: 13 }}>מספר הוואטסאפ: +972-50-000-0000 <span style={{ color: 'var(--bizo-orange-200)' }}>(placeholder — יש להחליף)</span></p>
         </div>
       </section>
