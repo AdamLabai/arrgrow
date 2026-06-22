@@ -359,7 +359,6 @@
           <p>שלחו הי לביז'ו בוואטסאפ — תוך 5 דקות תעשו אונבורדינג קצר ותשלחו את התמונה הראשונה שלכם.</p>
           <CTA size="lg">שלחו הי לביז'ו →</CTA>
           <p className="bz-action-micro">2 עיבודי וידאו + 10 יצירות תמונה חינם · ביטול בכל עת · ללא כרטיס אשראי</p>
-          <p className="bz-action-micro" style={{ opacity: .55, fontSize: 13 }}>מספר הוואטסאפ: +972-50-000-0000 <span style={{ color: 'var(--bizo-orange-200)' }}>(placeholder — יש להחליף)</span></p>
         </div>
       </section>
     );
