@@ -547,7 +547,7 @@ body::after {
 .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
 .stat-card { padding: var(--space-8) var(--space-6); text-align: center; position: relative; }
 .stat-card:not(:last-child)::after { content: ''; position: absolute; top: 20%; right: 0; height: 60%; width: 1px; background: var(--border); }
-.stat-number { margin-bottom: var(--space-2); }
+.stat-number { margin-bottom: var(--space-2); color: rgba(255,255,255,0.7); }
 .stat-label  { color: var(--fg-muted); font-size: 14px; font-weight: 500; margin: 0; }
 
 /* ─── Section header ──────────────────────────────────────── */
@@ -945,7 +945,7 @@ body::after {
 [dir="rtl"] .back-link           { flex-direction: row-reverse; }
 [dir="rtl"] .product-badge       { flex-direction: row-reverse; }
 [dir="rtl"] .trial-strip         { flex-direction: row-reverse; }
-[dir="rtl"] .feature-list li     { flex-direction: row-reverse; text-align: right; }
+[dir="rtl"] .feature-list li     { flex-direction: row; text-align: right; }
 [dir="rtl"] .pricing-credit-item { flex-direction: row-reverse; }
 [dir="rtl"] .pricing-features li { flex-direction: row-reverse; text-align: right; }
 [dir="rtl"] .trial-band          { flex-direction: row-reverse; }
